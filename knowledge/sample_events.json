@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "customer_gender": "female",
+      "customer_age_range": "25-34",
+      "action": "picked up",
+      "product_name": "Cinnamon Chex",
+      "quantity": 1
+    },
+    {
+      "customer_gender": "male",
+      "customer_age_range": "35-44",
+      "action": "put back",
+      "product_name": "Oatmeal Crisp",
+      "quantity": 2
+    },
+    {
+      "customer_gender": "female",
+      "customer_age_range": "18-24",
+      "action": "picked up",
+      "product_name": "Alpen Cereal",
+      "quantity": 1
+    }
+  ]
+}
+

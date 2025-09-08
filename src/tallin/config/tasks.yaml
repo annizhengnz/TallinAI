@@ -1,0 +1,24 @@
+analysis_task:
+  description: >
+    Analyze the image located at '{image_path}'. Identify every distinct customer-product interaction.
+    For each interaction, detail the customer's gender, age range, the action taken ('picked up' or 'put back'),
+    the full product name, and the quantity of items involved.
+    Compile a structured report of these events based on the provided schema.
+  expected_output: >
+    A JSON object containing a list of events, where each event perfectly matches the AiEvent schema.
+  agent: video_analyst
+  # output_file: events.json
+
+update_task:
+  description: >
+    Process the JSON report of detected events from the video analyst.
+    For each event where an item was 'picked up', you MUST perform the following sequence:
+    1. Use the `find_item_by_name` command to get the item's ID.
+    2. Use the `update_inventory` command with the correct ID and a negative quantity_change to decrease the stock.
+    3. Use the `create_event_record` command to log the change with a descriptive message.
+    Finally, provide a concise summary of all actions taken.
+  expected_output: >
+    A final summary report in markdown format, detailing each item updated and each event created.
+  agent: inventory_manager
+  context:
+    - analysis_task
