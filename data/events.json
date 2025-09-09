@@ -12,5 +12,12 @@
     "timestamp": "2025-09-08T11:30:00Z",
     "description": "Corrected stock count for Harvest Crunch.",
     "itemId": "item-5"
+  },
+  "evt-3": {
+    "id": "evt-3",
+    "type": "Tallin Update",
+    "timestamp": "2025-09-08T11:30:00Z",
+    "description": " AI detected a adult unknown took 1 unit(s) of 'Fibre 1'.",
+    "itemId": "item-5"
   }
 }
