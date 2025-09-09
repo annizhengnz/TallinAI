@@ -1,0 +1,72 @@
+{
+  "item-1": {
+    "id": "item-1",
+    "name": "Alpen Cereal",
+    "sku": "AL-CER-001",
+    "quantity": 30,
+    "location": "Aisle 5, Shelf 1"
+  },
+  "item-2": {
+    "id": "item-2",
+    "name": "Rice Chex Cereal",
+    "sku": "RC-CHX-001",
+    "quantity": 25,
+    "location": "Aisle 5, Shelf 2"
+  },
+  "item-3": {
+    "id": "item-3",
+    "name": "Grape Nuts Cereal",
+    "sku": "GN-CER-001",
+    "quantity": 40,
+    "location": "Aisle 5, Shelf 1"
+  },
+  "item-4": {
+    "id": "item-4",
+    "name": "Great Grains Cereal",
+    "sku": "GG-CER-001",
+    "quantity": 35,
+    "location": "Aisle 5, Shelf 2"
+  },
+  "item-5": {
+    "id": "item-5",
+    "name": "Harvest Crunch Cereal",
+    "sku": "HC-CER-001",
+    "quantity": 50,
+    "location": "Aisle 5, Shelf 2"
+  },
+  "item-6": {
+    "id": "item-6",
+    "name": "Kellogg's All-Bran",
+    "sku": "KL-AB-001",
+    "quantity": 22,
+    "location": "Aisle 5, Shelf 1"
+  },
+  "item-7": {
+    "id": "item-7",
+    "name": "Oatmeal Crisp",
+    "sku": "OM-CRP-001",
+    "quantity": 15,
+    "location": "Aisle 5, Shelf 3"
+  },
+  "item-8": {
+    "id": "item-8",
+    "name": "Fibre 1 Cereal",
+    "sku": "F1-CER-001",
+    "quantity": 18,
+    "location": "Aisle 5, Shelf 2"
+  },
+  "item-9": {
+    "id": "item-9",
+    "name": "Cinnamon Chex",
+    "sku": "CN-CHX-001",
+    "quantity": 33,
+    "location": "Aisle 5, Shelf 3"
+  },
+  "item-10": {
+    "id": "item-10",
+    "name": "Honey Bunches of Oats",
+    "sku": "HB-OAT-001",
+    "quantity": 28,
+    "location": "Aisle 5, Shelf 3"
+  }
+}

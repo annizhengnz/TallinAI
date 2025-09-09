@@ -1,8 +1,8 @@
 [project]
 name = "tallin"
 version = "0.1.0"
-description = "tallin using crewAI"
-authors = [{ name = "Your Name", email = "you@example.com" }]
+description = "tallin for stocktaking"
+authors = [{ name = "Anni Z", email = "annizhengcheng.nz@gmail.com" }]
 requires-python = ">=3.10,<3.14"
 dependencies = [
     "crewai[tools]>=0.177.0,<1.0.0",
@@ -17,7 +17,7 @@ train = "tallin.main:train"
 replay = "tallin.main:replay"
 test = "tallin.main:test"
 report = "tallin.report:main"
-api = "tallin.api:main"
+api = "tallin.api:app"
 
 [build-system]
 requires = ["hatchling"]

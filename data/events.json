@@ -1,0 +1,16 @@
+{
+  "evt-1": {
+    "id": "evt-1",
+    "type": "Initial Stock",
+    "timestamp": "2025-09-08T10:00:00Z",
+    "description": "Initial inventory loaded for cereals.",
+    "itemId": "item-1"
+  },
+  "evt-2": {
+    "id": "evt-2",
+    "type": "Manual Update",
+    "timestamp": "2025-09-08T11:30:00Z",
+    "description": "Corrected stock count for Harvest Crunch.",
+    "itemId": "item-5"
+  }
+}
