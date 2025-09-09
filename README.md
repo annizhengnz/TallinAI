@@ -6,7 +6,7 @@ Digital worker for stocktaking.
 
 ## Demo
 
-
+https://youtu.be/honIJicmBGY
 
 
 ## Quick Start
