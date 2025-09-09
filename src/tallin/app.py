@@ -117,7 +117,7 @@ def analyze_videos(upload_path):
         result = analyze_image(image_path)
         frame_results.append(result)
     report = gen_report(frame_results)
-    return report
+    return "\n".join(frame_results) + report
 
 @app.route('/api/query',methods= ["POST"])
 def runQuery():
